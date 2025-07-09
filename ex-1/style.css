@@ -76,6 +76,14 @@ h3 {
   justify-content: center;
 }
 
+@media only screen and (max-width: 768px) {
+  .row-1,
+  .row-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .job-item,
 .job-more {
   position: relative;
