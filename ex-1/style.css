@@ -168,3 +168,40 @@ h3 {
 }
 
 /* Start coding here */
+
+@media only screen and (max-width: 768px) {
+  .row-1,
+  .row-2 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+
+  .job-item, .job-more {
+    width: 100%;
+
+  }
+  .arrow {
+    top: auto;
+    left: auto;
+    bottom: 30px;
+    right:30px
+  }
+  h3 {
+    position: absolute;
+    left: 35px;
+  }
+
+  .categories{
+    min-width: auto;
+  }
+
+  .topic {
+      margin-left: 20px;
+  }
+  
+}
