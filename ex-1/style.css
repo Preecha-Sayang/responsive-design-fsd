@@ -175,6 +175,10 @@ h3 {
     width: 100%;
   }
 
+  .categories {
+    min-width: none;
+  }
+
   .arrow {
     top: auto;
     left: auto;
